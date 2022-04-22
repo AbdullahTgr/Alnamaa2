@@ -137,7 +137,8 @@
 
 	<!-- Active JS -->
 	<script src="{{asset('frontend/js/active.js')}}"></script>
-
+	<script src="{{asset('main.js')}}"></script>
+    <script src="{{asset('glightbox/js/glightbox.min.js')}}"></script>
 	
 	@stack('scripts')
 	<script>

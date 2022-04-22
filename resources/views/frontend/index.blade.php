@@ -40,11 +40,12 @@
                         <p>{!! html_entity_decode($banner->{'description-ar'}) !!}</p>
                         </h1>
                             @endif
-                        <a class="btn btn-lg ws-btn wow fadeInUpBig" href="{{route('product-grids')}}" role="button">{{ Lang::get('msg.shopnow') }}<i class="far fa-arrow-alt-circle-right"></i></i></a>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=irWA_4F0CeQ" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>{{ Lang::get('msg.watchvid') }}</span></a>
+                        <a class="btn btn-lg ws-btn wow fadeInUpBig" href="{{route('product-grids')}}"  role="button">{{ Lang::get('msg.shopnow') }}<i class="far fa-arrow-alt-circle-right"></i></i></a>
                     </div>
                 </div>  
             @endforeach   
-        </div>
+        </div> 
         <a class="carousel-control-prev" href="#Gslider" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">{{ Lang::get('msg.previous') }}</span>
@@ -711,10 +712,10 @@
         }
 
         #Gslider .carousel-inner .carousel-caption h1 {
-        font-size: 41px;
+        font-size: 30px;
         font-weight: bold;
         line-height: 100%;
-        color: #F7941D;
+        color: #2196f3;
         }
 
         #Gslider .carousel-inner .carousel-caption p {

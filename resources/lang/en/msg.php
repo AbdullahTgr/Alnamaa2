@@ -186,9 +186,9 @@ return [
     'selectyouraddress'             =>                                                     'Select Shipping',
 
     'wishlist'             =>                                                     'Wishlist',
-    'Alsaidi'                =>                               'Al-Saidi Engineering and Trading Company',
-
-
+    'Alsaidi'                =>                               'Al-Namaa Packing Company شركة النماء للتعبئة والتغليف ,آلات التعبئة والتغليف',
+    'watchvid' => 'Watch Video',
+    'upto' => ' Up To ',
 
 
 

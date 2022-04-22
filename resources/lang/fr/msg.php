@@ -189,9 +189,9 @@ return [
 
     'wishlist'             =>                                                     'Wishlist',
 
-    'Alsaidi'                =>                               "Société d'ingnierie et de commerce Al-Saidi",
-
-
+    'Alsaidi'                =>                               "شركة النماء للتعبئة والتغليف ,آلات التعبئة والتغليف",
+    'watchvid' => 'Watch Video',
+    'upto' => ' Up To ',
 
 
 
