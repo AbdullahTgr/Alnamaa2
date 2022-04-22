@@ -1,5 +1,5 @@
 @extends('backend.layouts.master')
-@section('title',Lang::get('msg.Alsaidi'))
+@section('title',"Lang::get('msg.Alsaidi')")
 @section('main-content')
 <div class="container-fluid">
     @include('backend.layouts.notification')
