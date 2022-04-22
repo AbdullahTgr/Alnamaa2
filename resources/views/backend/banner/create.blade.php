@@ -1,6 +1,6 @@
 @extends('backend.layouts.master')
 
-@section('title',config('app.nameend'))
+@section('title',config('app.nameeng'))
 
 @section('main-content')
 
